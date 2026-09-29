@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<link rel="icon" type="image/png" href="logo.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Datenschutzerklärung – FormActa</title>
+<style>
+  :root {
+    --bg: #f7f5f2;
+    --surface: #ffffff;
+    --surface-2: #eeece7;
+    --border: #e1ddd6;
+    --text: #1d1b18;
+    --text-secondary: #5c584f;
+    --text-tertiary: #8b8579;
+    --mint: #2f8f6e;
+    --terracotta: #a85a37;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #18181a;
+      --surface: #201f22;
+      --surface-2: #29282b;
+      --border: #313033;
+      --text: #f2f0ec;
+      --text-secondary: #a7a3a0;
+      --text-tertiary: #706c6a;
+      --mint: #4fb492;
+      --terracotta: #c98259;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 20px 64px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  header {
+    padding: 48px 0 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  .eyebrow img { border-radius: 50%; }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--mint);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 12px 0 8px;
+  }
+  .meta { color: var(--text-tertiary); font-size: 14px; }
+  h2 {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 40px 0 12px;
+    padding-top: 4px;
+  }
+  h2 .num { color: var(--terracotta); margin-right: 8px; }
+  p { color: var(--text-secondary); margin: 0 0 14px; }
+  ul { color: var(--text-secondary); margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--text); font-weight: 600; }
+  code {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.9em;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 0 0 14px;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  a { color: var(--mint); }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-tertiary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow"><img src="logo.png" alt="" width="28" height="28" />FormActa</span>
+    <h1>Datenschutzerklärung</h1>
+    <p class="meta">Stand: 20. September 2026</p>
+  </header>
+
+  <div class="card">
+    <p>
+      FormActa ist eine App zum Tracken von Krafttraining und Körper-Fortschritt,
+      die nach dem Grundsatz <strong>Privacy-First</strong> entwickelt wurde:
+      Alle Trainings- und Körperdaten sowie Fotos verbleiben ausschließlich
+      lokal auf deinem Gerät. Es gibt keinen eigenen Server, kein Tracking und
+      keine Analyse-Software. Diese Erklärung beschreibt im Detail, welche
+      Daten wann verarbeitet werden.
+    </p>
+  </div>
+
+  <h2><span class="num">1.</span>Verantwortlicher</h2>
+  <p>
+    Verantwortlich für FormActa im Sinne der Datenschutz-Grundverordnung (DSGVO)
+    ist der Entwickler der App. Kontakt für Fragen zum Datenschutz:
+    <a href="mailto:schmitz873@gmail.com">schmitz873@gmail.com</a>.
+  </p>
+
+  <h2><span class="num">2.</span>Trainings- und Körperdaten</h2>
+  <p>
+    Übungen, Trainingssätze, Wiederholungszahlen, Gewichts- und
+    Umfangsmessungen werden in einer lokalen SQLite-Datenbank auf deinem Gerät
+    gespeichert. Diese Daten werden zu keinem Zeitpunkt automatisch an den
+    Entwickler, an Werbenetzwerke oder an sonstige Dritte übertragen. Der
+    Entwickler hat keinen Zugriff auf diese Daten.
+  </p>
+
+  <h2><span class="num">3.</span>Fotos & Kamera-/Mediathek-Zugriff</h2>
+  <p>
+    Zu deinen Körpermessungen kannst du optional Fortschrittsfotos hinzufügen.
+    Die App fragt dafür beim ersten Mal die Berechtigung für Kamera bzw.
+    Fotomediathek ab. Aufgenommene oder ausgewählte Fotos werden zugeschnitten,
+    komprimiert und ausschließlich im internen Speicherbereich der App auf
+    deinem Gerät abgelegt – nicht in deiner allgemeinen Systemgalerie und nicht
+    auf einem Server des Entwicklers.
+  </p>
+
+  <h2><span class="num">4.</span>Optionales Cloud-Backup über Google Drive</h2>
+  <p>
+    Auf Wunsch kannst du deine Datenbank und deine Fotos als Backup in dein
+    eigenes Google-Drive-Konto sichern. Dieses Feature ist standardmäßig
+    <strong>inaktiv</strong> und wird ausschließlich durch dich ausgelöst.
+  </p>
+  <ul>
+    <li>
+      Die Anmeldung erfolgt über <strong>OAuth 2.0 mit PKCE</strong> direkt
+      zwischen deinem Gerät und Google. Weder FormActa noch der Entwickler
+      erhalten dabei dein Google-Passwort.
+    </li>
+    <li>
+      Es wird ausschließlich der Berechtigungsumfang <code>drive.file</code>
+      angefragt. Damit kann die App <strong>nur auf die Backup-Datei
+      zugreifen, die sie selbst in deinem Drive anlegt</strong> – nicht auf
+      andere Dateien oder Ordner in deinem Google Drive.
+    </li>
+    <li>
+      Die Backup-Datei liegt in deinem eigenen Google-Drive-Konto. Der
+      Entwickler hat keinen Zugriff darauf und betreibt keinen eigenen Server,
+      über den die Daten laufen.
+    </li>
+    <li>
+      Export und Import funktionieren als einfaches „Alles sichern" /
+      „Alles wiederherstellen" – es gibt keinen laufenden, automatischen
+      Hintergrund-Sync.
+    </li>
+    <li>
+      Du kannst den Zugriff jederzeit in deinem Google-Konto unter
+      <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">
+        „Apps mit Kontozugriff"
+      </a>
+      widerrufen und die Backup-Datei direkt in Google Drive löschen.
+    </li>
+  </ul>
+
+  <h2><span class="num">5.</span>Kein Tracking, keine Analyse, keine Werbung</h2>
+  <p>
+    FormActa enthält keine Analyse-, Tracking- oder Werbe-SDKs. Es werden keine
+    Nutzungs-, Geräte- oder Standortdaten erhoben oder an Dritte übermittelt.
+  </p>
+
+  <h2><span class="num">6.</span>Speicherdauer und Löschung</h2>
+  <p>
+    Lokale Daten bleiben bestehen, bis du sie in der App löschst oder die App
+    deinstallierst. Ein Google-Drive-Backup bleibt bestehen, bis du es selbst
+    in Google Drive löschst oder durch ein neues Backup ersetzt.
+  </p>
+
+  <h2><span class="num">7.</span>Deine Rechte</h2>
+  <p>
+    Da alle Daten ausschließlich auf deinem Gerät bzw. in deinem eigenen
+    Google-Konto liegen und der Entwickler keinerlei Zugriff darauf hat,
+    kannst du Auskunfts-, Berichtigungs- und Löschungsrechte unmittelbar selbst
+    wahrnehmen – etwa durch Bearbeiten oder Löschen von Einträgen in der App
+    oder durch Löschen der Backup-Datei in Google Drive. Bei Fragen kannst du
+    dich jederzeit unter der oben genannten Adresse melden.
+  </p>
+  <p>
+    Unabhängig davon hast du das Recht, dich bei einer
+    Datenschutz-Aufsichtsbehörde zu beschweren, etwa bei der für deinen
+    Wohnsitz zuständigen Landesdatenschutzbehörde.
+  </p>
+
+  <h2><span class="num">8.</span>Änderungen dieser Erklärung</h2>
+  <p>
+    Diese Datenschutzerklärung wird bei Bedarf angepasst, wenn sich
+    Funktionsumfang oder rechtliche Anforderungen ändern. Es gilt jeweils die
+    Fassung mit dem oben genannten Stand.
+  </p>
+
+  <footer>
+    FormActa – lokale Fitness-Tracking-App für iOS &amp; Android.
+    · <a href="impressum.html">Impressum</a>
+  </footer>
+</div>
+</body>
+</html>
