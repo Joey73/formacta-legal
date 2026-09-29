@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/png" href="logo.png" />
+<link rel="alternate" hreflang="de" href="datenschutz.html" />
+<link rel="alternate" hreflang="en" href="privacy.html" />
+<link rel="alternate" hreflang="x-default" href="privacy.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Datenschutzerklärung – FormActa</title>
 <style>
@@ -100,12 +103,19 @@
     color: var(--text-tertiary);
     font-size: 13px;
   }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .lang { font-size: 13px; color: var(--text-tertiary); white-space: nowrap; }
+  .lang a { text-decoration: none; }
+  .lang strong { color: var(--text-secondary); font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <span class="eyebrow"><img src="logo.png" alt="" width="28" height="28" />FormActa</span>
+    <div class="top">
+      <span class="eyebrow"><img src="logo.png" alt="" width="28" height="28" />FormActa</span>
+      <nav class="lang" aria-label="Sprache"><strong>Deutsch</strong> · <a href="privacy.html" hreflang="en" lang="en">English</a></nav>
+    </div>
     <h1>Datenschutzerklärung</h1>
     <p class="meta">Stand: 20. September 2026</p>
   </header>
