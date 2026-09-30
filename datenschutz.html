@@ -117,7 +117,7 @@
       <nav class="lang" aria-label="Sprache"><strong>Deutsch</strong> · <a href="privacy.html" hreflang="en" lang="en">English</a></nav>
     </div>
     <h1>Datenschutzerklärung</h1>
-    <p class="meta">Stand: 20. September 2026</p>
+    <p class="meta">Stand: 30. September 2026</p>
   </header>
 
   <div class="card">
@@ -138,7 +138,14 @@
     <a href="mailto:schmitz873@gmail.com">schmitz873@gmail.com</a>.
   </p>
 
-  <h2><span class="num">2.</span>Trainings- und Körperdaten</h2>
+  <h2><span class="num">2.</span>Profil-, Trainings- und Körperdaten</h2>
+  <p>
+    Beim ersten Start fragt die App deinen Namen und dein Geschlecht ab. Der
+    Name dient nur der persönlichen Ansprache, das Geschlecht der Auswahl
+    passender Übungsdarstellungen. Beides wird ausschließlich lokal auf
+    deinem Gerät gespeichert und kann jederzeit in den Einstellungen
+    geändert werden.
+  </p>
   <p>
     Übungen, Trainingssätze, Wiederholungszahlen, Gewichts- und
     Umfangsmessungen werden in einer lokalen SQLite-Datenbank auf deinem Gerät
@@ -157,40 +164,33 @@
     auf einem Server des Entwicklers.
   </p>
 
-  <h2><span class="num">4.</span>Optionales Cloud-Backup über Google Drive</h2>
+  <h2><span class="num">4.</span>Export und Import (Datensicherung)</h2>
   <p>
-    Auf Wunsch kannst du deine Datenbank und deine Fotos als Backup in dein
-    eigenes Google-Drive-Konto sichern. Dieses Feature ist standardmäßig
-    <strong>inaktiv</strong> und wird ausschließlich durch dich ausgelöst.
+    Du kannst deine Datenbank und deine Fotos als eine Sicherungsdatei
+    (ZIP) exportieren, etwa um sie auf ein neues Gerät zu übertragen. Diese
+    Funktion wird <strong>ausschließlich durch dich ausgelöst</strong>.
   </p>
   <ul>
     <li>
-      Die Anmeldung erfolgt über <strong>OAuth 2.0 mit PKCE</strong> direkt
-      zwischen deinem Gerät und Google. Weder FormActa noch der Entwickler
-      erhalten dabei dein Google-Passwort.
+      Beim Export öffnet die App das Teilen-Menü deines Betriebssystems.
+      Wohin die Datei gespeichert oder gesendet wird – z. B. in die
+      Dateien-App, in einen Cloud-Speicher wie iCloud Drive oder Google
+      Drive, per AirDrop oder per E-Mail –, entscheidest allein du.
     </li>
     <li>
-      Es wird ausschließlich der Berechtigungsumfang <code>drive.file</code>
-      angefragt. Damit kann die App <strong>nur auf die Backup-Datei
-      zugreifen, die sie selbst in deinem Drive anlegt</strong> – nicht auf
-      andere Dateien oder Ordner in deinem Google Drive.
+      FormActa selbst verbindet sich dabei mit keinem Cloud-Dienst und
+      überträgt keine Daten an den Entwickler oder an Dritte. Für die
+      Verarbeitung durch den von dir gewählten Dienst gelten dessen
+      Datenschutzbestimmungen.
     </li>
     <li>
-      Die Backup-Datei liegt in deinem eigenen Google-Drive-Konto. Der
-      Entwickler hat keinen Zugriff darauf und betreibt keinen eigenen Server,
-      über den die Daten laufen.
+      Die Sicherungsdatei ist nicht verschlüsselt und enthält deine
+      Profil-, Trainings- und Körperdaten sowie Fotos. Bewahre sie daher sorgfältig
+      auf.
     </li>
     <li>
-      Export und Import funktionieren als einfaches „Alles sichern" /
-      „Alles wiederherstellen" – es gibt keinen laufenden, automatischen
-      Hintergrund-Sync.
-    </li>
-    <li>
-      Du kannst den Zugriff jederzeit in deinem Google-Konto unter
-      <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">
-        „Apps mit Kontozugriff"
-      </a>
-      widerrufen und die Backup-Datei direkt in Google Drive löschen.
+      Beim Import wählst du eine Sicherungsdatei über die Dateiauswahl
+      deines Geräts aus. Deren Inhalt ersetzt die lokalen Daten in der App.
     </li>
   </ul>
 
@@ -203,17 +203,18 @@
   <h2><span class="num">6.</span>Speicherdauer und Löschung</h2>
   <p>
     Lokale Daten bleiben bestehen, bis du sie in der App löschst oder die App
-    deinstallierst. Ein Google-Drive-Backup bleibt bestehen, bis du es selbst
-    in Google Drive löschst oder durch ein neues Backup ersetzt.
+    deinstallierst. Exportierte Sicherungsdateien bleiben dort bestehen, wo
+    du sie gespeichert hast, bis du sie selbst löschst.
   </p>
 
   <h2><span class="num">7.</span>Deine Rechte</h2>
   <p>
-    Da alle Daten ausschließlich auf deinem Gerät bzw. in deinem eigenen
-    Google-Konto liegen und der Entwickler keinerlei Zugriff darauf hat,
+    Da alle Daten ausschließlich auf deinem Gerät bzw. in von dir selbst
+    gespeicherten Sicherungsdateien liegen und der Entwickler keinerlei
+    Zugriff darauf hat,
     kannst du Auskunfts-, Berichtigungs- und Löschungsrechte unmittelbar selbst
     wahrnehmen – etwa durch Bearbeiten oder Löschen von Einträgen in der App
-    oder durch Löschen der Backup-Datei in Google Drive. Bei Fragen kannst du
+    oder durch Löschen deiner Sicherungsdateien. Bei Fragen kannst du
     dich jederzeit unter der oben genannten Adresse melden.
   </p>
   <p>
